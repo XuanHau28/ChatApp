@@ -81,7 +81,7 @@ const Register = () => {
                 <button>Sign Up</button>
                 {error && <span>Some Thing Went Wrong</span>}
             </form>
-            <p>Do you have account? Login</p>
+            <p>Do you have account? <Link to="/login">Login</Link></p>
         </div>
     </div>
   )

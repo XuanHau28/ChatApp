@@ -146,8 +146,8 @@
 
                 .user {
                     display: flex;
-                    gap:2rem;
-
+                    gap: 10px;
+                    align-items: center;
                     img {
                         height: 34px;
                         width: 34px;
@@ -162,6 +162,11 @@
                         font-size: 1rem;
                         border: none;
                         cursor: pointer;
+                        padding: 0.3rem;
+                        @include tablet {
+                             position: absolute;
+                                bottom: 100px;
+                        }
                     }
                 }
             }
